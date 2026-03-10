@@ -7,8 +7,10 @@
 - setup SSH
 - - created private key
   - saved the key for backups at /Documets/SSH-keys
+    ![SSH](/images/SSH.jpg)
 ## 9 March '26
 - Installed docker
 - Installed portainer for docker management
 - configured to automatically start containers
 - First software deployed: Glance, managed in a docker container
+  ![glance](/images/glance.jpg)
