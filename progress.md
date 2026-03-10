@@ -14,3 +14,7 @@
 - configured to automatically start containers
 - First software deployed: Glance, managed in a docker container
   ![glance](/images/glance.jpg)
+## 10 March '26
+- cleaned up Github repo
+### In progress
+- Deployed piHole, facing networking problems -- to be continued
