@@ -18,3 +18,13 @@
 - cleaned up Github repo
 ### In progress
 - Deployed piHole, facing networking problems -- to be continued
+## 11 March '26
+- Fully deployed Pi-hole and resolved netowrking issues
+  ![pi-hole](/images/Pi-hole.jpg)
+  ### Problem
+  Pihole docker unable to receive queries from home network.
+  ### Fix
+  Changed the docker driver to Host from Bridge, now the container directly runs on host ip.
+  ### what I learnt
+  Docker bridge mode create a vitual ip addres in a internal network, which is seperate from the host's network thus, it rejects queries in the host network.
+  Host mode makes the container run on host's IP that is 192.168.0.81 on port 53 bypassing the issue of different networks.
