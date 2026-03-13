@@ -28,3 +28,8 @@
   ### what I learnt
   Docker bridge mode create a vitual ip addres in a internal network, which is seperate from the host's network thus, it rejects queries in the host network.
   Host mode makes the container run on host's IP that is 192.168.0.81 on port 53 bypassing the issue of different networks.
+
+## 13 March '26
+- Set up proper network documentation 
+![Network](Architecture/OddHouse.svg)
+- created a system architecture diagram in affinity studio
