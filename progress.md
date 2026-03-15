@@ -7,20 +7,20 @@
 - setup SSH
 - - created private key
   - saved the key for backups at /Documets/SSH-keys
-    ![SSH](/images/SSH.jpg)
+    ![SSH](/images/Screenshots/SSH.jpg)
 ## 9 March '26
 - Installed docker
 - Installed portainer for docker management
 - configured to automatically start containers
 - First software deployed: Glance, managed in a docker container
-  ![glance](/images/glance.jpg)
+  ![glance](/images/Screenshots/glance.jpg)
 ## 10 March '26
 - cleaned up Github repo
 ### In progress
 - Deployed piHole, facing networking problems -- to be continued
 ## 11 March '26
 - Fully deployed Pi-hole and resolved netowrking issues
-  ![pi-hole](/images/Pi-hole.jpg)
+  ![pi-hole](/images/Screenshots/Pi-hole.jpg)
   ### Problem
   Pihole docker unable to receive queries from home network.
   ### Fix
