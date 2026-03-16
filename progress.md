@@ -38,3 +38,8 @@
 ### In progress
 - deployment of nginx proxy manager
 - deployment goaccess
+
+## 16 March '26
+![Nginx-porxy-manager](images/Screenshots/nginx.jpg)
+### Problems
+Pi hole and nginx use the same ports thus leading to a conflict
