@@ -33,3 +33,8 @@
 - Set up proper network documentation 
 ![Network](Architecture/OddHouse.svg)
 - created a system architecture diagram in affinity studio
+
+## 15 March '26
+### In progress
+- deployment of nginx proxy manager
+- deployment goaccess
