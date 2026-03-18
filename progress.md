@@ -32,14 +32,24 @@
 ## 13 March '26
 - Set up proper network documentation 
 ![Network](Architecture/OddHouse.svg)
-- created a system architecture diagram in affinity studio
+- created a system architecture diagram in affinity studio.
 
 ## 15 March '26
 ### In progress
-- deployment of nginx proxy manager
-- deployment goaccess
+- deployment of nginx proxy manager.
+- deployment goaccess.
 
 ## 16 March '26
 ![Nginx-porxy-manager](images/Screenshots/nginx.jpg)
 ### Problems
-Pi hole and nginx use the same ports thus leading to a conflict
+- Pi hole and nginx use the same ports thus leading to a conflict.
+
+## 17 March '26
+- Attempted to resolve the conflict and reinstalled pihole several times to change its web port from 80 to 8053, however faced problems.
+
+## 18 March '26
+- Deleted portainer containers and tried to recreate with docker compose.
+- while deleting, an error occured regarding filesystem.
+- unable to delete the broken file link, tried to manualy delete the file.
+- A fatal error occured breaking the kernal and the OS.
+- Server became unstable.
