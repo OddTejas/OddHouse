@@ -1,4 +1,5 @@
-# OddHouse
+# OddHouse V2 - proxmox  setup
+> This is the new server setup. To see the pervious history visit main branch
 A linux based homelab built to learn administration, networking and data processing.
 This lab is built from a recycled laptop, even though the harware is old and weak, but like a old diesel locomotive, knowing how to operate it makes it haul heavy load that no human can.
 
