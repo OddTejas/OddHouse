@@ -3,6 +3,7 @@
 ## 22 March'26
 - Changed the update repositories from VE subscription to VE non-subscription
 - Installed Nginx proxy manager with VE community scripts
+- configured it to act as a reverse proxy and route proxmox.house as 192.168.0.81:8006
 
 
 ## 19 March '26
