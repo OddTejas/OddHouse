@@ -19,4 +19,6 @@ A linux based homelab built to learn administration, networking and data process
 
 ## software stack
 - Proxmox
+- networking
+  - Nginx Proxy manager
 
