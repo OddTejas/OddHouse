@@ -21,4 +21,5 @@ A linux based homelab built to learn administration, networking and data process
 - Proxmox
 - networking
   - Nginx Proxy manager
+  - AdGuard
 
