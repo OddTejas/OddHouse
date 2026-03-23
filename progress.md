@@ -1,8 +1,10 @@
 # Daily progress 
 ## 23 March '26
 - Deployed AdGuard on 192.168.0.127
+![Adguard](/images/V2-images/Screenshots/adblock.jpg)
 - Changed the local domain name from .house to .lan to prevent issues as .house is a real domain for sale
 - Added DNS rewrite to route local domain names to nginx proxy manager.
+![DNS rewrite in adguard](/images/V2-images/Screenshots/dns-write.jpg)
 
 ## 22 March'26
 - Changed the update repositories from VE subscription to VE non-subscription
