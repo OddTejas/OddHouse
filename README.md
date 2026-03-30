@@ -22,4 +22,5 @@ A linux based homelab built to learn administration, networking and data process
 - networking
   - Nginx Proxy manager
   - AdGuard
+  - Gitea
 

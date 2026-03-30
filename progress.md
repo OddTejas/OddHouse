@@ -2,6 +2,7 @@
 ## 30 March '26
 - Deployed Gitea on 192.168.0.118
 - cloned Github repo on to the server and locally on my laptop 
+![gitea](/images/V2-images/Screenshots/gitea-ui.jpg)
 ## 23 March '26
 - Deployed AdGuard on 192.168.0.127
 ![Adguard](/images/V2-images/Screenshots/adblock.jpg)
