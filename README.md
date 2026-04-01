@@ -25,4 +25,6 @@ A linux based homelab built to learn administration, networking and data process
 
 - services  
   - Gitea
+  - Jupyter notebook
+- Debian Ct for data analyst
 
