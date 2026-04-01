@@ -1,4 +1,8 @@
 # Daily progress
+## 1 March '26
+- Deployed Jupyter along with python libraries required for data analyst
+![Jupyter](/images/V2-images/Screenshots/jupyter-tree.jpg)
+- Documented and created a [short guide](/JupyterNotebookSetup.md) 
 ## 30 March '26
 - Deployed Gitea on 192.168.0.118
 - cloned Github repo on to the server and locally on my laptop 
