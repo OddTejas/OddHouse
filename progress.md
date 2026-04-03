@@ -1,9 +1,10 @@
 # Daily progress
-## 3 March '26
+## 3 April '26
 - started a data analysis project on the server with jupyter
 - Extracted data plfs data of literacy rates with wikipidea as a proxy
 - Cleaned the data and store it as a csv file
-## 1 March '26
+![wealth and education correlation dataset sceenshot](/images/V2-images/DataProjects/Wealthineq.jpg)
+## 1 April '26
 - Deployed Jupyter along with python libraries required for data analyst
 ![Jupyter](/images/V2-images/Screenshots/jupyter-tree.jpg)
 - Documented and created a [short guide](/Configs/JupyterNotebookSetup.md) 
