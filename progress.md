@@ -1,4 +1,8 @@
 # Daily progress
+## 5 April '26
+- Compared State wealth (SDGP) and Gratuates population %
+- Created a scatterplot with matplotlib 
+- updated README to add the analysis
 ## 3 April '26
 - started a data analysis project on the server with jupyter
 - Extracted data plfs data of literacy rates with wikipidea as a proxy
