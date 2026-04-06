@@ -1,4 +1,7 @@
 # Daily progress
+## 6 April '26
+- Completed the analysis and updated README
+- added banner to readme
 ## 5 April '26
 - Compared State wealth (SDGP) and Gratuates population %
 - Created a scatterplot with matplotlib 
