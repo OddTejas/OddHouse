@@ -1,7 +1,8 @@
+![ServerBanner](/images/Oddhouse/serverLaptop.png)
 # OddHouse V2 - proxmox  setup
 > This is the new server setup. To see the pervious history visit legacy branch 
 
-A linux based homelab built to learn administration, networking and data processing.
+A linux based homelab built to learn administration, networking and data processing with economics.
  This lab is built from a recycled laptop, even though the harware is old and weak, but like a old diesel locomotive, knowing how to operate it   makes it haul heavy load that no human can.
 
 ## objectives
@@ -16,6 +17,7 @@ A linux based homelab built to learn administration, networking and data process
 - 8GB RAM
 - 256GB SSD
 - Home network router
+![ram](/images/Oddhouse/ServerRam.png)
 
 ## software stack
 - Proxmox
@@ -26,5 +28,6 @@ A linux based homelab built to learn administration, networking and data process
 - services  
   - Gitea
   - Jupyter notebook
-- Debian Ct for data analyst
+- Debian CT for data analysis
+
 
