@@ -1,4 +1,7 @@
 # Daily progress
+## 8 April '26 
+- Started a new project on women and gender inequality
+- found the usable data and downloaded it.
 ## 6 April '26
 - Completed the analysis and updated README
 - added banner to readme
