@@ -1,4 +1,4 @@
-# Composite index gender inequality by Indian states on young women based on unpaid labour, political representation and workforce participation
+# Composite index of gender inequality by Indian states on young women based on unpaid labour, political representation and workforce participation
 
 ## Goals
 - Create a state-wise rankings of most hours spent by women compared to men in tasks of unpaid labour and domestic work.
@@ -15,8 +15,8 @@ The data for unpaid labour is sourced from TUS 2019 where we use total minutes s
 ### Workforce participation ratio
 The data from PLFS report 2019 is used, collecting the worker population ration of young women working (15-29 years old) and comparing them to men. The ratio obtained from both will give final State-wise list.
 
-### Political representation
-The % of women participation in political positions like State Legistlatures tate-wise.
+### Political representation of women
+The % of women participation in political positions like State Legistlatures state-wise. Collect data from year 2019 and before to match the timeline of other metrics.
 
-### Why do we the way we do?
-Taking ratio of men and women is crucial to help create concrete evidence by removing other variable like population and wealth from interfering with the data. It shows how much more women work more then men relative to their states
+### Why we do the way we do?
+Taking ratio of men and women is crucial to help create concrete evidence by removing other variable like population and wealth from interfering with the data. It shows how much more women work then men relative to their states
