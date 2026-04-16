@@ -1,4 +1,9 @@
 # Daily progress
+## 16 April '26
+- Cleaned the data for the women inequalty project
+## 15 April '26
+- fixed gitignore cached files 
+- The long gap inbetween was due to me going away from my server 
 ## 8 April '26 
 - Started a new project on women and gender inequality
 - found the usable data and downloaded it.
