@@ -1,4 +1,6 @@
 # Daily progress
+## 17 April '26
+- created oddhouse gender inequality index
 ## 16 April '26
 - Cleaned the data for the women inequalty project
 ## 15 April '26
