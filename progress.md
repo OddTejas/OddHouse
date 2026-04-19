@@ -1,4 +1,7 @@
 # Daily progress
+## 19 April '26 
+- visualised the data from the oddhouse index and made a pretty bar graph
+- Added 'Findings section for readme of the project'
 ## 17 April '26
 - created oddhouse gender inequality index
 ## 16 April '26
