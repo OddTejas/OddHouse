@@ -19,7 +19,7 @@ The data from PLFS report 2019 is used, collecting the worker population ration 
 The % of women participation in political positions like State Legistlatures state-wise. The data is obtained from prs india who collected data from each state's legistlature data. the normal is subtracted from 1 so that low participation converts to high inequality score.
 
 ### Why we do the way we do?
-Taking ratio of men and women is crucial to help create concrete evidence by removing other variable like population and wealth from interfering with the data. It shows how much more women work then men relative to their states
+Taking ratio of men and women is crucial to help create concrete evidence by removing other variable like population and wealth from interfering with the data. It shows how much more women work then men relative to their states. The age group selected is 15 to 29 as this is the age when they step into adulthood. Finally all three of these index are weighed equally as there is not any proper weights between these dimensions.
 ## Findings
 ### Rankings 
 ![State rankings of most inequal states](/images/V2-images/DataProjects/gender_ineq.png)
@@ -38,9 +38,11 @@ From the composite index the following graph was plotted. Bihar was the state wi
 ## Conclusions
 This rankings based on workforce participation, unpaid labour gap and political participation of women aims to mesure gender equality in India while trying to use measures which are not affected by wealth of the states to give a unfiltered answer.
 
-It shall be noted that these states ofter face two types of inequality; political and physical. Bihar's legistlature has good amount of women present but this represnetation had no effect on phyiscal parts of life. Then we can say that the women represntation was not used to uplift women in that state. Meanwhilem, chattisgarh had the most amount of women participation in politics and ranked the lowest. This does not indicate that political representation has any direct affect on physical inequalty, as it can be seen with himachal with the highest inequality in politics and yet having a lower score than most other states. Thus policy makers should look into making women more able to take decisions for uplifiting them.
+It shall be noted that these states ofter face two types of inequality; political and physical. 
+Bihar's legistlature has good amount of women present but this represnetation had no effect on phyiscal parts of life. Then we can say that the women represntation was not used to uplift women in that state. Meanwhile, chattisgarh had the most amount of women participation in politics and ranked the lowest. This does not indicate that political representation has any direct affect on physical inequalty, as it can be seen with himachal with the highest inequality in politics and yet having a lower score than most other states.
+From this, we notice that political represntation in Bihar is flawed, thus policy makers should look into making women more able to take decisions for uplifiting them.
 
-States like Assam and karnataka have all round high inequality, these states demand a diffrent type of policies to help the women. The age group selected was 15 to 29 as this is the age when they step into adulthood. high amount of women are working in unpaid labour and are absent in paid work in these states. Policymakers should look into enabling women to work paid jobs
+States like Assam and karnataka have all round high inequality, which is shocking considering that karnataka has good all round development.  These states demand a diffrent type of policies to help the women. High amount of women from these states are working in unpaid labour and are absent in paid work. Policymakers should look into the factors in karnataka which cause this unexpected high ranking in such a developed state.
 ## Limitations
 - Political participation data was from 2023 before reservation of seats for women which sits at a diffrent time compared to PLFS and TUS data.
 - few states were dropped as they lacked the data to conduct this analysis; Arunachal Pradesh, Goa, Manipur, Meghalaya, Mizoram, Nagaland,Sikkim, Tripura.
