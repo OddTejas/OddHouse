@@ -1,33 +1,29 @@
 ![ServerBanner](/images/Oddhouse/serverLaptop.png)
 # OddHouse V2 - proxmox  setup
-> This is the new server setup. To see the pervious history visit legacy branch 
+> This is the new server setup. To see the previous history visit legacy branch 
 
-A linux based homelab built to learn administration, networking and data processing with economics.
- This lab is built from a recycled laptop, even though the harware is old and weak, but like a old diesel locomotive, knowing how to operate it   makes it haul heavy load that no human can.
-
-## objectives
-- Learn linux servers (deployment and maintenance)
-- Build secure networking and remote access
-- Host small application and services
-- Run data analysis projects with the right infrastructure
-
+A linux based homelab built to old hardware giving a second chance to tech. The server host the services required to reseach economics with data tools like python and jupyter
+*Like an old diesel locomotive, knowing how to operate it; 
+makes it haul loads no human can.*
+[click here for economics section of this repository](/Data-analysis/)
 ## hardware
-- Old dell laptop
-- Intel Core i7-3632QM
-- 8GB RAM
-- 256GB SSD
-- Home network router
+- Old dell laptop - Intel Core i7-3632QM, 8GB RAM, 256GB SSD
 ![ram](/images/Oddhouse/ServerRam.png)
 
 ## software stack
-- Proxmox
-- networking
-  - Nginx Proxy manager
+- **Virtualisation:** Proxmox
+- **networking**
+  -Nginx Proxy manager
   - AdGuard
 
-- services  
+- **services**  
   - Gitea
   - Jupyter notebook
-- Debian CT for data analysis
+- **Analysis:** Debian Container 
+
+## Research
+Independent research using public database 
+- [Gender Inequality Index across Indian States](/Data-analysis/Women-discrimination/) 
+- [Corretion between State wealth and higher education](/Data-analysis/Wealth-and-education/)
 
 
