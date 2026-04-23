@@ -1,4 +1,8 @@
 # Daily progress
+## 23 April '26
+- Created a new storage medium for server backups and create a guide
+## 22 April '26
+- Cleaned the women inequality report and the readme for better readablity.
 ## 19 April '26 
 - visualised the data from the oddhouse index and made a pretty bar graph
 - Added 'Findings" section for readme of the project
