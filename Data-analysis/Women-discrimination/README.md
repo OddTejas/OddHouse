@@ -5,7 +5,6 @@
 - Create a state-wise rankings of political representation by women compared to men.
 - Compare men and women in workforce partcipation
 - Use the three rankings and normalise them to a scale of 1 to 0 and create a composite index
-- plot any correlation between them  and find meaningful data regarding women disparity.
 
 ## Data methodology
 
@@ -19,7 +18,7 @@ The data from PLFS report 2019 is used, collecting the worker population ration 
 The % of women participation in political positions like State Legistlatures state-wise. The data is obtained from prs india who collected data from each state's legistlature data. the normal is subtracted from 1 so that low participation converts to high inequality score.
 
 ### Why we do the way we do?
-Taking ratio of men and women is crucial to help create concrete evidence by removing other variable like population and wealth from interfering with the data. It shows how much more women work then men relative to their states. The age group selected is 15 to 29 as this is the age when they step into adulthood. Finally all three of these index are weighed equally as there is not any proper weights between these dimensions.
+Taking ratio of men and women is crucial to help create concrete evidence by removing other variable like population and wealth from interfering with the data. It shows how much more women work then men relative to their states. The age group selected is 15 to 29 as this is the age when they step into adulthood. Finally all three of these index are weighed equally as there is not any proper weights between these dimensions. Like HDI this study too uses equal weighting to exclude subjective bias from the sub indices and  follows a more robust methodology.
 ## Findings
 ### Rankings 
 ![State rankings of most inequal states](/images/V2-images/DataProjects/gender_ineq.png)
@@ -40,12 +39,12 @@ This rankings based on workforce participation, unpaid labour gap and political 
 
 It shall be noted that these states ofter face two types of inequality; political and physical. 
 Bihar's legistlature has good amount of women present but this represnetation had no effect on phyiscal parts of life. It can be argued that not all types of political represntation provides equal oppertunities, which can be seen in Bihar. Meanwhile, chattisgarh had the most amount of women participation in politics and ranked the lowest. This study's aim is not to find correlation between equality and political represntation, as it can be seen with himachal with the highest inequality in politics and yet having a lower score than most other states.
-From this, we notice that political represntation in Bihar is flawed. Either women are for name's sake and are controlled by women candidiates or they are not taking decisions in the best interest of women.
+From this, we notice that political represntation in Bihar is flawed. Either women are for name's sake i.e proxy candidates,and are controlled by men or they are not taking decisions in the best interest of women.
 
 States like Assam and karnataka have all round high inequality, which is shocking considering that karnataka has good all round development.  These states demand a diffrent type of policies to help the women. High amount of women from these states are working in unpaid labour and are absent in paid work.
 Karnataka can be explained from the fact that karnataka is mostly developed only in a single city, the data from the entire state skews this. Rural infrastructre maybe lacking or women face problems from family laws or social contstraints. Then, a wider population of karnataka must be supported to increase the equality in the state.
 ## Limitations
-- Political participation data was from 2023 before reservation of seats for women which sits at a diffrent time compared to PLFS and TUS data.
+- Political participation data was from 2023 before reservation of seats for women which sits at a diffrent time compared to PLFS and TUS data.  
 - few states were dropped as they lacked the data to conduct this analysis; Arunachal Pradesh, Goa, Manipur, Meghalaya, Mizoram, Nagaland,Sikkim, Tripura.
 ## Data
 Political represntation  -
