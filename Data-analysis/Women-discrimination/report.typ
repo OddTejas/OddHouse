@@ -31,12 +31,12 @@ number-align: center)
 
 
 == Goals
-- Measure the gender inequality in different Indian states using mulitiple indicies.
+- Measure the gender inequality in different Indian states using multiple indices.
 - Create a composite index
 - Understand min-max normalisation
 == Data methodology
 === Process
-The data used in this report targets women and men of age 15 to 29 as this is a crucial years in their youth. The general procedure consists of taking a ratio of women and men. 
+The data used in this report targets women and men of age 15 to 29 as this is a critical years in their youth. The general procedure consists of taking a ratio of women and men. 
 #align(center)[#set text(size:13pt)
 $ R_i = I_"women"/I_"men" $]
 This ratio is then scaled to fit between 0 and 1 to give a uniform score using min max normalization, which can be compared between multiple indices. For example the ratio of women workforce participation would look like:
@@ -48,11 +48,14 @@ This report tried to rank states with highest inequality thus a higher score mus
 
 For example, the workforce index:
 
-$ I_n"final" = 1- I_n"workforce"  $
+$ I_n"final workforce" = 1- I_n"workforce"  $
 After this cruical step, higher score would always mean higher inequality.
-
+ 
+To create to composite index all the indices are taken with equal weights:
+$ I_n"final" = (I_p + I_w + I_u) / 3 $ 
+where p = poltical representation, w = workforce participation, u = unpaid labour.
 === Why we do the way we do?
-Taking ratio of men and women in this way makes sure that we are really measuring inequality instead of its underlying wealth; wealthy states which have higher education, access to healthcare, do to their richness may skew the data causing inequality in terms on freedom and resposibilties to be hidden. This shows how much more women work then men relative to each other. The age group selected is 15 to 29 as this is the age when they step into adulthood. Finally all three of these index are weighed equally as there is not any proper weights between these dimensions. Like HDI this study too uses equal weighting to exclude subjective bias from the sub indices and  follows a more robust methodology.
+ Inequality in terms of  freedom and responsibilties is our aim. This report skips GD to measure the underlying social fabric. This shows how much more women work then men relative to each other. The age group selected is 15 to 29 this is the age when they step into adulthood. Finally all three of these index are weighed equally as there is not any proper weights between these dimensions, Different people have different opinions on which dimension has more importance, like HDI this study too uses equal weighting to exclude subjective bias from the sub indices and keep them trasnparent while acting as a proxy even if they are not the best fit.
 == Findings
 === Rankings 
  #image("/images/V2-images/DataProjects/gender_ineq.png")
@@ -77,13 +80,13 @@ From the composite index the following graph was plotted. Bihar was the state wi
 This rankings based on workforce participation, unpaid labour gap and political participation of women aims to mesure gender equality in India while trying to use measures which are not affected by wealth of the states to give a unfiltered answer.
 
 It shall be noted that these states ofter face two types of inequality; political and physical. 
-Bihar's legistlature has good amount of women present but this represnetation had no effect on phyiscal parts of life. It can be argued that not all types of political represntation provides equal oppertunities, which can be seen in Bihar. Meanwhile, chattisgarh had the most amount of women participation in politics and ranked the lowest. This study's aim is not to find correlation between equality and political represntation, as it can be seen with himachal with the highest inequality in politics and yet having a lower score than most other states.
-From this, we notice that political represntation in Bihar is flawed. Either women are for name's sake i.e proxy candidates,and are controlled by men or they are not taking decisions in the best interest of women.
+Bihar's legislature has good amount of women present but this represnetation had no effect on physical parts of life. It can be argued that not all types of political represntation provides equal oppertunities, which can be seen in Bihar. Meanwhile, chattisgarh had the most amount of women participation in politics and ranked the lowest. This study's aim is not to find correlation between equality and political represntation, as it can be seen with himachal with the highest inequality in politics and yet having a lower score than most other states.
+From this, we notice that political represntation in Bihar is flawed. Either women are merely for show i.e proxy candidates,and are controlled by men or they are not taking decisions in the best interest of women.
 
-States like Assam and karnataka have all round high inequality, which is shocking considering that karnataka has good all round development.  These states demand a diffrent type of policies to help the women. High amount of women from these states are working in unpaid labour and are absent in paid work.
-Karnataka can be explained from the fact that karnataka is mostly developed only in a single city, the data from the entire state skews this. Rural infrastructre maybe lacking or women face problems from family laws or social contstraints. Then, a wider population of karnataka must be supported to increase the equality in the state.
+States like Assam and karnataka have all round high inequality, which is shocking considering that karnataka has good all round development.  These states demand a different type of policies to help the women. High amount of women from these states are working in unpaid labour and are absent in paid work.
+Karnataka can be explained from the fact that karnataka is mostly developed only in a single city, the data from the entire state skews this. Rural infrastructure maybe lacking or women face problems from family laws or social contstraints. Then, a wider population of karnataka must be supported to increase the equality in the state.
 == Limitations
-- Political participation data was from 2023 before reservation of seats for women which sits at a diffrent time compared to PLFS and TUS data.  
+- Political participation data was from 2023 before reservation of seats for women which sits at a different time compared to PLFS and TUS data.  While proper timeline is important, proper 
 - few states were dropped as they lacked the data to conduct this analysis; #table(
   columns: (1fr,1fr),
   gutter: (1em),
@@ -100,9 +103,9 @@ Karnataka can be explained from the fact that karnataka is mostly developed only
   gutter: 1em,
   align: left,
   inset: 5pt,
-  [Political represntation - ],[prsindia.org ],
+  [Political represntation - ],[prsindia.org 2023 ],
   [unpaid labour -],[TUS 2019],
-  [workforce particpation-],[PLFS 2019.]
+  [workforce participation-],[PLFS 2019]
 )
 
 
