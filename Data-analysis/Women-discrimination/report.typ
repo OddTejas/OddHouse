@@ -55,7 +55,7 @@ To create to composite index all the indices are taken with equal weights:
 $ I_n"final" = (I_p + I_w + I_u) / 3 $ 
 where p = poltical representation, w = workforce participation, u = unpaid labour.
 === Why we do the way we do?
- Inequality in terms of  freedom and responsibilties is our aim. This report skips GD to measure the underlying social fabric. This shows how much more women work then men relative to each other. The age group selected is 15 to 29 this is the age when they step into adulthood. Finally all three of these index are weighed equally as there is not any proper weights between these dimensions, Different people have different opinions on which dimension has more importance, like HDI this study too uses equal weighting to exclude subjective bias from the sub indices and keep them trasnparent while acting as a proxy even if they are not the best fit.
+ Inequality in terms of  freedom and responsibilties is our aim. This report tries to measure the underlying social fabric. This shows how much more women work then men relative to each other. The age group selected is 15 to 29 this is the age when they step into adulthood. Finally all three of these index are weighed equally as there is not any proper weights between these dimensions, Different people have different opinions on which dimension has more importance, like HDI this study too uses equal weighting to exclude subjective bias from the sub indices and keep them trasnparent while acting as a proxy even if they are not the best fit.
 == Findings
 === Rankings 
  #image("/images/V2-images/DataProjects/gender_ineq.png")
