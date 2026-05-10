@@ -1,4 +1,10 @@
 # Daily progress
+## 7 May '26
+- Changed the readme to be simpler and attractive so that the comman man can relate and understand.
+## 4 May '26
+- created critique.md for slef assesment of my report.
+## 3 May '26
+- rewrote the report with typst.
 ## 23 April '26
 - Created a new storage medium for server backups and create a guide
 ## 22 April '26
