@@ -13,8 +13,6 @@ This study observes the relationship between alcohol consumption and  gender ine
 ### process
 Firstly data is to normalised to compare to gender index while taking extra care with outliers of the dataset to offset the readings disproportionatly.
 
-
-
 ### Inequality Index
 Using my own custom Index based on workforce participation, unpaid labour and political representation.
 

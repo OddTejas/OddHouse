@@ -1,4 +1,8 @@
 # Daily progress
+## 24 May '26
+- Created visuals
+## 10 May '26
+- Started alcohol and gender inequality study
 ## 7 May '26
 - Changed the readme to be simpler and attractive so that the comman man can relate and understand.
 ## 4 May '26
