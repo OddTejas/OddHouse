@@ -26,5 +26,13 @@ To account for wealth, NSDP from RBI handbook of statistics was collected. This 
 
 ## Results
 
+## Discussion
+The results of this study show that contrary to the popular assumption,  alcohol is not a strong predictor of women's empowerment. Many of the states like near the average consumption and a few outliers are noted.
+
+ Per-capita income too showed weak correlation with the gender inequality and empowerment index. Economic prosperity alone could not answer why some states had higher % of women in unpaid labour and performed worse in workforce particiaption.
+
+ On running clustering by K-means, data diverged into two groups with a moderate sillhouette score of 0.4. This suggest that the state level hetrogeneity may paint a better picture than national averages. Upon looking at the cluster centers it was found that the groups were divided based on the gender index rather than alcohol consumption.
+
+
 ## Limitations
 First major limitation we much acknowledge is that the sample size of this report is only 20 which limits statistical accuracy.Secondly, the acohol consumption data is self-reported and this has an effect that some state with high social stigma or dry states may under report than the true value. The Gender index only captures a small slice of oppertuinity and inequality against women. Fourthly, state-level averages distort the different socio-economic differences. Finally, this study is explanitory and does not resolve to causal relationship.
