@@ -1,7 +1,7 @@
 # A state level analysis of gender inequality and acohol consumption across India
 
 ## Abstract
-This study observes the relationship between alcohol consumption and  gender inequality using a custom inequality index created by OddHouse (me). While there are many social norms regarding such topics, This analysis would not argue whether alcohol is good or not and neither advocates that consumption causes gender inequality but only tries to find correlation using statistical means.
+This study observes the relationship between alcohol consumption and  gender inequality using a custom inequality index created by the author. While there are many social norms regarding such topics, this analysis would not argue whether alcohol is good or not and neither advocates that consumption causes gender inequality but only tries to find correlation using statistical means. The sample size used for this study is 20 states and data for alcohol consumption is from NHFS - 5, % of men who consume alcohol.
 
 After a weak correlation, more analysis was conducted to see if the national average could hide state specific difference could explain the observations.
 
@@ -14,15 +14,15 @@ After a weak correlation, more analysis was conducted to see if the national ave
 ## Data methodology
 
 ### process
-For correlation raw values were used and pearsons r value and p values were calculated. To find clusters data was scaled using robust scaling to account for outliers and K means was used to identify potential clusters along with sillhouette score which when calculated for multiple k values and $k=2$ gave the best result for the evidence of seperation.
+For correlation raw values were used and pearsons r value and p values were calculated. To test for skewing for outliers spearman's rank was compared. To find clusters data was scaled using robust scaling to account for outliers and K means was used to identify potential clusters along with sillhouette score which when calculated for multiple k values and $k=2$ gave the best result for the evidence of seperation.
 ### Inequality Index
-Using my own custom Index based on workforce participation, unpaid labour and political representation.
+Using my own custom Index based on workforce participation, unpaid labour and political representation. The data was min-max normalized with equal weights.
 
 ### alcohol consumption
 NHFS survey provides data of % of men consuming alcohol state wise.
 
 ### wealth 
-To account for wealth, NSDP from RBI handbook of statistics was collected. This was added to a matrix correlation.
+To account for wealth, NSDP - per-capita from RBI handbook of statistics was collected. This was added to a matrix correlation.
 
 ## Results
 
@@ -32,6 +32,8 @@ The results of this study show that contrary to the popular assumption,  alcohol
  Per-capita income too showed weak correlation with the gender inequality and empowerment index. Economic prosperity alone could not answer why some states had higher % of women in unpaid labour and performed worse in workforce particiaption.
 
  On running clustering by K-means, data diverged into two groups with a moderate sillhouette score of 0.4. This suggest that the state level hetrogeneity may paint a better picture than national averages. Upon looking at the cluster centers it was found that the groups were divided based on the gender index rather than alcohol consumption.
+
+The absence of correlation between alcohol and gender inequality does not mean that alcohol consumption has no effect on social outcomes but, alcohol alone cannot predict inequality. 
 
 
 ## Limitations
