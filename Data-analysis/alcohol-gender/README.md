@@ -1,6 +1,7 @@
 # A state level analysis of gender inequality and acohol consumption across India
-
 ## Abstract
+Bivariate correlation often masks the inter states diffrences where alcohol and gender inequality diverge across the states, leading to aggrigation bias. This paper uses a custom gender inequallity index based on min-max normaliation of three dimensions; political representation, unpaid labour and workforce particiaption. This is combined with clusted analysis based on k-means with a sillouette score of 0.4 after robust scaling. while correlation shows weak relationship between gender inequality and alcohol consmption, cluster analysis shows the data is seperated into two clusters. The data for alcohol consumption is collected from NHFS -5 (2019-2020).
+## introduction 
 This study observes the relationship between alcohol consumption and  gender inequality using a custom inequality index created by the author. While there are many social norms regarding such topics, this analysis would not argue whether alcohol is good or not and neither advocates that consumption causes gender inequality but only tries to find correlation using statistical means. The sample size used for this study is 20 states and data for alcohol consumption is from NHFS - 5, % of men who consume alcohol.
 
 After a weak correlation, more analysis was conducted to see if the national average could hide state specific difference could explain the observations.
