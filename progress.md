@@ -1,4 +1,6 @@
 # Daily progress
+## 21 june '26
+- added visuals and completed data analysis
 ## 24 May '26
 - Created visuals
 ## 10 May '26
