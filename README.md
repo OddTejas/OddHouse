@@ -23,7 +23,9 @@ makes it haul loads no human can.*
 
 ## Research
 Independent research using public database 
+- [Cluster analysis of alcohol and custom gender inequaltiy index](/Data-analysis/alcohol-gender/)
 - [Gender Inequality Index across Indian States](/Data-analysis/Women-discrimination/) 
 - [Corretion between State wealth and higher education](/Data-analysis/Wealth-and-education/)
+
 
 
