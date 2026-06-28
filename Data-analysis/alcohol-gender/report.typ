@@ -35,7 +35,7 @@ margin: (x:0.75in, y: 0.75in),
 
  #v(2em)
   #set text(size: 10pt)
-  *Abstract-* Weak correlations at the national level can conceal substantial differences between states, particularly when social and economic indicators vary across regions. This paper studies relationship between gender and opportunity inequality and Alcohol consumption. Bivariate correlation gave weak relationship with $r= -0.21, p = 0.35$ This is combined with clustered analysis based on k-means with a silhouette score of $0.4$ after robust scaling.  cluster analysis identified two clusters, analysis showed clusters diverged into equal and non-equal states. This concludes that alcohol is a weak predictor of gender inequality 
+  *Abstract-* Weak correlations at the national level can conceal substantial differences between states, particularly when social and economic indicators vary across regions. This paper studies relationship between gender and opportunity inequality through a custom inequality index and Alcohol consumption of percent of male drinkers from NFHS-5 household survey by self-reporting. Bivariate correlation gave non-significant relationship with $r= -0.21, p = 0.35$ .To find state-specific heterogeneity,  k-means clustering along with robust scaling was applied  with a resulting silhouette score of $0.4$.  cluster analysis identified two clusters, analysis showed clusters diverged into equal and non-equal states. This paper concludes that alcohol is a weak predictor of gender inequality and quantifies that inquality is more nuanced do to socio-economic variations.
 #v(1em)
 _*keywords:*_ Gender inequality · Alcohol consumption · India · Cluster analysis · K-means · Data analysis
 #v(3em)
@@ -58,10 +58,10 @@ _*keywords:*_ Gender inequality · Alcohol consumption · India · Cluster analy
  
 
 )
-#set text(hyphenate: true)
+#set text(hyphenate: false)
 #set par(leading: 0.95em,)
 #show table.cell.where(y: 0): set text(weight: "bold")
-  
+
 
 = Introduction
 This study observes the relationship between alcohol consumption and  gender inequality using a custom inequality index created by the author[1], consisting of; Time spent for Unpaid labour[2], Workforce Participation[3] and Political Representation[4] ratio of women over men, which are normalized and weighted equally. (Age group selected is 15-29) _*Note:*_ *Higher values for OGI indicates higher inequality* While there are many social norms regarding such topics, this analysis would not argue whether alcohol is good or not and neither advocates that consumption causes gender inequality but only tries to find correlation using statistical means. The sample size used for this study is 20 states and data for alcohol consumption is from NHFS - 5 [5], % of men who consume alcohol.
@@ -72,7 +72,7 @@ After a weak correlation, more analysis was conducted to see if the national ave
 
 == Process
 For correlation raw values were used and Pearson's correlation coefficient value and p values were calculated. 
-$$r = -0.21,\space p = 0.35$$
+$$r = -0.21, p = 0.35$$
 To test for skewing for outliers Spearman's rank coefficient rank was compared which is $-0.18$
 
 To find clusters data was scaled using robust scaling to account for outliers and K means was used to identify potential clusters along with sillhouette score which when calculated for multiple k values and $k=2$ gave the best result for the evidence of seperation.
@@ -104,7 +104,7 @@ table(
 #figure(
   table(
     columns: (auto,auto,auto),
-    stroke: (x, y) => if y == 0 { (bottom: 1pt + black) } else if y == 3 { (bottom: 1pt + black) } else { none },
+    stroke: (x, y) => if y == 0 { (bottom: 1pt + black) } else if y == 2 { (bottom: 1pt + black) } else { none },
     [Variables(scaled)],[Cluster A],[Cluster B],
     [Alcohol],[0.151],[0.041],
     [OGI],[2.275],[-0.504],
@@ -112,7 +112,7 @@ table(
 )
 (Table 2) shows the relative distance between alcohol is minimal while inequality has a wide swing between the two clusters
 = Discussion
-Within this report and current data, alcohol is not a strong predictor of women's empowerment. Many of the states like near the average consumption and a few outliers are noted.
+Regression analysis revealed a statistically insignificant, this may mean that within this report and current data of sample size of 20 states, alcohol is not a strong predictor of women's empowerment. Many of the states like near the average consumption and a few outliers are noted.
 
 Per-capita income too showed weak correlation with the gender inequality and empowerment index. Economic prosperity alone could not answer why some states had higher % of women in unpaid labour and performed worse in workforce particiaption.
 On running clustering by K-means, data diverged into two groups with a moderate sillhouette score of 0.4.
@@ -147,7 +147,9 @@ align(center)[
   #app
 ]
 }
-#appendix("Appendix A: Construction of OGI")
+
+
+#appendix("Appendix: Construction of OGI")
 == Custom Gender inequality and opportunity index
 $ R_i = I_"women"/I_"men" $
 This ratio is then scaled to fit between 0 and 1 to give a uniform score using min max normalization, which can be compared between multiple indices. For example the ratio of women workforce participation would look like:
