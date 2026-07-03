@@ -1,4 +1,6 @@
 # Daily progress
+## 3 July '26
+finished with typst report of gender inquality and alcohol consumption study.
 ## 21 june '26
 - added visuals and completed data analysis
 ## 24 May '26
