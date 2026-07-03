@@ -44,7 +44,7 @@ _*keywords:*_ Gender inequality · Alcohol consumption · India · Cluster analy
   columns: (1fr, 0.4fr,),
   gutter: 1em,
   [Author],[K. Evan Tejas],
-  [],[Student Researcher],
+  [],[Student],
   [],[Telangana, India],
   [],[2026]
 )
@@ -149,7 +149,7 @@ align(center)[
 }
 
 
-#appendix("Appendix: Construction of OGI")
+#appendix("Appendix A: Construction of OGI")
 == Custom Gender inequality and opportunity index
 $ R_i = I_"women"/I_"men" $
 This ratio is then scaled to fit between 0 and 1 to give a uniform score using min max normalization, which can be compared between multiple indices. For example the ratio of women workforce participation would look like:
@@ -170,4 +170,19 @@ where,
  WP = Normalized Workforce participation
 
 == Why this index?
-Inequality in terms of  freedom and responsibilties is our aim. This report tries to measure the underlying social fabric. This shows how much more women work then men relative to each other. The age group selected is 15 to 29 this is the age when they step into adulthood. Finally all three of these index are weighed equally as there is not any proper weights between these dimensions, Different people have different opinions on which dimension has more importance, like HDI this study too uses equal weighting to exclude subjective bias from the sub indices and keep them trasnparent while acting as a proxy even if they are not the best fit.
+Inequality in terms of  freedom and responsibilties is our aim. This report tries to measure the underlying social fabric. This shows how much more women work then men relative to each other. The age group selected is 15 to 29 this is the age when they step into adulthood. Finally all three of these index are weighed equally as there is not any proper weights between these dimensions, Different people have different opinions on which dimension has more importance, like HDI this study too uses equal weighting to exclude subjective bias from the sub indices and keep them trasnparent while acting as a proxy even if they are not the best fit.\
+
+#appendix("Appendix B: Sillhouette scores")
+The following table depicts the various sillhouette scores produced for different values of $k$
+#align(center)[
+#table(
+
+  columns: (auto,auto),
+  stroke: (x, y) => if y == 0 { (bottom: 1pt + black) } else if y == 3 { (bottom: 1pt + black) } else { none },
+[K- value],[sillhouette scores],
+[2],[0.45],
+[3],[0.32],
+[4],[0.31]
+
+)]
+$k=2$ produced the best score.
