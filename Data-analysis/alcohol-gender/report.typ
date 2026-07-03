@@ -66,7 +66,7 @@ _*keywords:*_ Gender inequality · Alcohol consumption · India · Cluster analy
 = Introduction
 This study observes the relationship between alcohol consumption and  gender inequality using a custom inequality index created by the author[1], consisting of; Time spent for Unpaid labour[2], Workforce Participation[3] and Political Representation[4] ratio of women over men, which are normalized and weighted equally. (Age group selected is 15-29) _*Note:*_ *Higher values for OGI indicates higher inequality* While there are many social norms regarding such topics, this analysis would not argue whether alcohol is good or not and neither advocates that consumption causes gender inequality but only tries to find correlation using statistical means. The sample size used for this study is 20 states and data for alcohol consumption is from NHFS - 5 [5], % of men who consume alcohol.
 
-After a weak correlation, more analysis was conducted to see if the national average could hide state specific difference could explain the observations, thus clustering was selected to find this patterns. 
+After a weak correlation, more analysis was conducted to see if the national average could hide state specific difference which could explain the observations, thus clustering was selected to find this patterns. 
 
 = Data methodology
 
@@ -160,12 +160,12 @@ This report tried to rank states with highest inequality thus a higher score mus
 For example, the workforce index:
 
 $ I_n"final workforce" = 1- I_n"workforce"  $
-$ "OGI" = ("Ul"_I + "PR "_I +"WP"_I)/3 $
+$ "OGI" = ("UL"_I + "PR "_I +"WP"_I)/3 $
 where,
 
  UL = Normralised unpaid labour
 
- PL = Normralised Political representation
+ PR = Normralised Political representation
 
  WP = Normalized Workforce participation
 
